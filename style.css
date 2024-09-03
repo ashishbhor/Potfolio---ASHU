@@ -370,6 +370,7 @@ span{
     background-color: #161616;
   }
   #container2{
+    font-size: larger;
     display: flex;
     justify-content: space-evenly;
   }
@@ -398,6 +399,8 @@ span{
   border-width: 1px;
   }
   #copyright{
+    font-family: serif;
+    font-size: 15px;
     display: flex;
     justify-content: center;
   }
