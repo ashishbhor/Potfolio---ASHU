@@ -236,24 +236,17 @@ span{
     }
 }
 
-/*=============== VARIABLES CSS ===============*/
 :root {
-    /*========== Colors ==========*/
-    /*Color mode HSL(hue, saturation, lightness)*/
     --first-color: hsl(82, 60%, 28%);
     --title-color: hsl(0, 0%, 15%);
     --text-color: white;
     --body-color: hsl(0, 0%, 95%);
     --container-color: hsl(0, 0%, 100%);
-  
-    /*========== Font and typography ==========*/
-    /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: "Poppins", sans-serif;
     --h2-font-size: 1.25rem;
     --small-font-size: .900rem;
   }
   
-  /*========== Responsive typography ==========*/
   @media screen and (min-width: 1120px) {
     :root {
       --h2-font-size: 1.5rem;
@@ -261,7 +254,6 @@ span{
     }
   }
   
-  /*=============== BASE ===============*/
   * {
     box-sizing: border-box;
     padding: 0;
@@ -280,7 +272,6 @@ span{
     height: auto;
   }
   
-  /*=============== CARD ===============*/
   .container {
     display: grid;
     align-items: start;
@@ -443,8 +434,6 @@ span{
     }
   }
   
-  /*=============== BREAKPOINTS ===============*/
-  /* For small devices */
   @media screen and (max-width: 340px) {
     .container {
       margin-inline: 1rem;
@@ -456,7 +445,6 @@ span{
     }
   }
   
-  /* For medium devices */
   @media screen and (min-width: 768px) {
     .card__container {
       grid-template-columns: repeat(2, 1fr);
@@ -464,7 +452,6 @@ span{
     }
   }
   
-  /* For large devices */
   @media screen and (min-width: 1120px) {
     .container {
       height: 100vh;
